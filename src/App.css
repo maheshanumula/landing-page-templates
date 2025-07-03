@@ -1,0 +1,471 @@
+
+*{                                    /*navbar.css...........*/
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+  display: flex;
+  height: 65px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: white;
+  color: black;
+  position: sticky;
+  top: 0;
+
+}
+
+.navbar-logo {
+  font-size: 37px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:black;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+.linck{
+  text-decoration: none;
+}
+.navbar-links li a:hover{
+    text-decoration: underline;
+   text-decoration-thickness: 3px;
+   text-decoration-color: #043d99;
+}
+.navbar-links li a {
+  text-decoration: none;
+  font-size: 22px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(131, 126, 126);
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar-links li a:hover {
+  color: #38bdf8;
+}
+
+.navbar-auth button {
+  margin-left: 10px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navbar-auth .signin{  
+ background-color: blue;
+ color: white;
+  width: 150px;
+  height: 68px;
+  font-size: 20px;
+   border-radius: 35px;
+
+}
+
+.navbar-auth .signup{
+  background-color: #e7ebec;
+  color: #043d99;
+  width: 150px;
+  height: 68px;
+  font-size: 20px;
+   border-radius: 35px;
+ 
+}
+.signin:hover {
+  background-color: #e7ebec;
+  color: #043d99;
+}
+
+.signup:hover {
+  background-color: blue;
+ color: white;
+}
+
+
+
+
+
+
+
+.section{                                 /*First.css..........*/
+    background-color: #f4f6f7;
+    display: flex;
+    justify-content:space-between;
+}
+.section-left{
+    margin-left: 50px;
+    margin-top: 150px;
+}
+.section-left b{
+    font-size: 23px;
+    color: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.section-left h1{
+    color: rgb(41, 39, 39);
+    font-size: 47px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+} 
+.section-left p{
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(88, 85, 85);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-left input{
+    position: absolute;
+    margin-top: 40px;
+    width: 540px;
+    height: 95px;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    background-color: white;
+    box-shadow: 0 10px 10px rgb(141, 141, 173); 
+}
+.section-left input::placeholder{
+    font-size: 18px;
+    padding-left: 30px;
+}
+.section-pp{
+    display: flex;
+    justify-content:center;
+}
+.section-pp ul{
+    list-style: none;
+    display: flex;
+    gap: 90px;
+    
+}
+.icon{
+   margin-top: 35px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border-top-color: blue;
+    color: blue;
+    margin-left: 0px;
+ 
+}
+.search{
+ position: relative;
+ margin-top: 45px;
+ margin-left: 450px;
+ width: 80px;
+ height: 80px;
+ border-radius: 50%;
+ background-color: #1d4ed8;
+ color: white;
+ text-align: center;
+ align-items: center;
+}
+
+
+
+
+
+
+.sliding h1{                             /*Third.css..........*/
+    margin-top: 40px;
+    color: rgb(43, 41, 41);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    padding-bottom: 100px;
+}
+
+
+
+
+
+
+
+.sliding-cards{                          /*fourth*.css........*/
+width: 1300px;
+margin-top: 100px;
+font-size: 25px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.card-img{
+  width: 20px;
+  border: 1px solid rgb(255, 255, 255);
+  border-top: none; 
+  border-radius: 10%;
+  gap: 20px;
+  box-shadow: 0 10px 20px rgb(214, 210, 210); 
+}
+.card-img img{
+  border-radius: 10%;
+  margin-left: 20px; 
+   
+}
+.card-img h1{
+  margin-left: 15px;
+  
+}
+.card-img p{
+  margin-left:30px ;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+.rating{
+  
+  display: flex;
+  justify-content: center;
+
+}
+.rating ul{
+  display: flex;
+  justify-content:space-evenly;
+  gap: 220px;
+  list-style: none;
+  padding-bottom: 20px;
+}
+.yellow{
+color: gold;
+}
+.mini-nav{
+  display: flex;
+  justify-content:space-around;
+
+}
+.mini-nav ul{
+  display: flex;
+  list-style: none;
+  margin-top: 30px;
+  gap: 100px;
+}
+.sliding-cards h1{
+  margin-left: 25px;
+  font-size: 35px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+.sliding-userpic{                                  /*five.css...........*/
+  background-color: #d3eaf3;
+  margin-top:80px;
+  padding-bottom: 130px;
+}
+.head{
+  padding-top: 50px;
+  font-size: 50px;
+  color: rgb(34, 32, 32);
+  margin-left: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card-us img{
+  margin-top: 110px;
+width: 360px;
+height: 360px;
+border-radius: 50%;
+}
+.card-us h1{
+text-align: center;
+margin-top: -100px;
+font-size: 25px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding-bottom: 20px;
+}
+.card-us p{
+text-align: center;
+font-size: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: rgb(102, 99, 99);
+
+}
+
+
+
+
+
+
+
+
+.aside{                               /*six.css...................*/
+  margin-top:130px ;
+  
+}
+.mini-aside img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+ 
+}
+.mini-aside{
+  border-radius: 15%;
+  margin-left: 200px;
+   flex-wrap: wrap;
+  padding: 2px;
+}
+.mini-aside p{
+  color: rgb(66, 63, 63);
+  width: 400px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 25px;
+}
+.mini-ul{
+  display: flex;
+  justify-content: center;
+
+}
+.mini-ul ul{
+  list-style: none;
+  display: flex;
+  gap: 170px;
+  font-size: 23px;
+  margin-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: -30px;
+  color: black;
+  padding-bottom: 20px;
+  
+}
+
+
+
+
+.news-letter{                                       /*seven.css..............*/
+  width: 1200px;
+  height: 400px;
+  margin-left: 50px;
+} 
+.newsletter-section {
+  margin-top: 200px;
+  background: linear-gradient(to right, #1d4ed8, #86c2df);
+  padding: 80px 20px;
+  text-align: center;
+  border-radius: 20px 30px 20px;
+  color: white;
+  transform: skewY(-2deg);
+  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.newsletter-section * {
+  transform: skewY(1.5deg); 
+}
+
+.newsletter-section h2 {
+  font-size: 46px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.newsletter-section p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #e0f2fe;
+}
+
+.newsletter-input input {
+  width: 600px;
+  height: 90px;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  outline: none;
+  color: #333;
+}
+.newsletter-input input::placeholder{
+padding-left: 30px;
+font-size: 22px;
+}
+
+
+
+
+
+
+.footer-section{                        /*eight.css................*/
+ background-color: #daedf7;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer-info ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 10px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.footer-logo{
+  padding-top: 60px;
+  margin-left: 60px;
+  font-size: 20px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer{
+  margin-top: 80px;
+ 
+  display: flex;
+  justify-content: space-between;
+ 
+ 
+}
+.footer-nav ul{
+  margin-top: 25px;
+  list-style: none;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.footer-nav b{
+  color: black;
+}
+.footer-details b{
+  color: black;
+
+}
+.footer-nav ul li{
+  padding: 10px;
+  color: #5f5b5b;
+}
+.footer-details ul{
+  margin-top: 25px;
+  
+  list-style: none;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer-details ul li{
+  padding: 10px;
+  color: #5f5b5b;
+
+}
+.footer-nembers ul{
+  margin-top: 25px;
+  color: #5f5b5b;
+   list-style: none;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer-nembers ul li{
+  padding: 23px;
+}
+.footer-logo .icons{
+  margin-top: 20px;
+  margin: 7px;
+}
