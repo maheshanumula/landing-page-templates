@@ -12,7 +12,7 @@ const Eight = () => {
         <div className="footer">
             <div className="footer-logo">
                 <h1>E-learning.</h1>
-                 <span ><FaFacebookF className="icons" />  <FaInstagram className="icons" />  <FaTwitter className="icons" /></span>
+                 <span > <a href="https://www.facebook.com"><FaFacebookF className="icons" /></a> <a href="https://www.instagram.com"> <FaInstagram className="icons" /> </a> <a href="https://www.twitter.com"><FaTwitter className="icons" /></a> </span>
             </div>
             <div className="footer-nav">
                 <ul>  

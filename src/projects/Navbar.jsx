@@ -12,22 +12,22 @@ const Navbar = () => {
       <ul className="navbar-links">
        
            
-         <Link className="linck" to = "/abc">
+         <Link className="linck" to= "/">
             <li ><a >Home</a></li> 
          
          </Link>
-        <Link className="linck">
+        <Link className="linck" to = "/abc">
             <li><a >Courses</a></li>
-        </Link>
-        <Link className="linck">
+        </Link> 
+        <Link className="linck" to= "/aaa">
             <li><a >Mentor</a></li>
             
         </Link>
-        <Link className="linck">
+        <Link className="linck" to = "/bbb">
            <li><a >Group</a></li>
         
         </Link>
-        <Link className="linck">
+        <Link className="linck" to = "/ccc">
            <li><a >Testimonial</a></li>
         
         </Link>

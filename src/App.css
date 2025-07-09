@@ -123,6 +123,8 @@
 
 .section-left input{
     position: absolute;
+    font-size:19px;
+    padding-left: 30px;
     margin-top: 40px;
     width: 540px;
     height: 95px;
@@ -134,7 +136,7 @@
 }
 .section-left input::placeholder{
     font-size: 18px;
-    padding-left: 30px;
+    
 }
 .section-pp{
     display: flex;
@@ -159,7 +161,7 @@
 .search{
  position: relative;
  margin-top: 45px;
- margin-left: 450px;
+ margin-left: 480px;
  width: 80px;
  height: 80px;
  border-radius: 50%;
@@ -382,12 +384,13 @@ color: rgb(102, 99, 99);
   height: 90px;
   border: none;
   border-radius: 50px;
-  font-size: 16px;
+  font-size: 20px;
+  padding-left: 30px;
   outline: none;
-  color: #333;
+  color: #050505;
 }
 .newsletter-input input::placeholder{
-padding-left: 30px;
+
 font-size: 22px;
 }
 
@@ -414,8 +417,11 @@ font-size: 22px;
   padding-top: 60px;
   margin-left: 60px;
   font-size: 20px;
-  color: #333;
+  color: #050505;
   font-family: Arial, Helvetica, sans-serif;
+}
+.icons{
+  color: black;
 }
 .footer{
   margin-top: 80px;

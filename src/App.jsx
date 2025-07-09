@@ -9,6 +9,7 @@ import Six from "./projects/Six";
 import Seven from "./projects/Seven";
 import Eight from "./projects/Eight";
 import { Route, Routes } from "react-router-dom";
+import Home from "./projects/Home";
 
 
 
@@ -17,18 +18,19 @@ const App = () => {
   return ( 
      <div>
           <Navbar/>
-          <First/>
-          <Thrid/>
+         
           <Routes>
-
+            
+            <Route path="/" element={<Home/>}/>
+            
             <Route path="/abc" element={<Fourth/>}/>
-           
+             <Route path="/aaa" element={<Five/>}/>
+             <Route path="/bbb" element={<Six/>}/>
+             <Route path="/ccc" element={<Eight/>}/>
+
           </Routes>
           
-          <Five/>
-          <Six/>
-          <Seven/>
-          <Eight/>
+          
 
      </div>
    );
